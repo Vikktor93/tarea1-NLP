@@ -3,7 +3,7 @@
 **Asignatura:** Procesamiento de Lenguaje Natural
 **Fecha de entrega:** 20 de julio de 2025
 
-## Descripción del Proyecto
+### Descripción del Proyecto
 Este repositorio contiene el análisis de texto de los cabildos provinciales realizados el año 2016. Esta tarea se enfoca en la extracción y visualización de patrones léxicos para un concepto específico. El objetivo es:
 
 1. Seleccionar un concepto con suficiente masa textual.  
@@ -14,7 +14,7 @@ Este repositorio contiene el análisis de texto de los cabildos provinciales re
 6. Construir y visualizar la red léxica de bigramas.  
 7. Interpretar resultados con ejemplos ilustrativos.
 
-## Estructura del Repositorio
+### Estructura del Repositorio
 ```
 tarea1-NLP/
 │
@@ -33,7 +33,7 @@ tarea1-NLP/
 └── README.md # Documentación del proyecto
 ```
 
-## Instalación y Configuración
+### Instalación y Configuración
 
 1. **Clonar el repositorio**  
    ```bash
@@ -62,7 +62,7 @@ tarea1-NLP/
     stanza.download('es')
     ```
 
-## Uso
+### Uso
 
 1. Clonar el repositorio en VS Code
 
@@ -87,13 +87,13 @@ tarea1-NLP/
 
 3. Los gráficos y tablas generados se guardan en output/figures y output/tables.
 
-## Resultados
+### Resultados
 
 - **WordClouds:** Nube de sustantivos y nube de bigramas.
 - **Gráfica de adjetivos:** Histograma de los 20 adjetivos más frecuentes.
 - **Red de Bigramas:** Grafo de bigramas sustantivo–adjetivo con métricas de grado.
 - **Ejemplos:** Frases representativas que contienen los términos más frecuentes.
 
-## Interpretación y Conclusiones
+### Interpretación y Conclusiones
 
 Revisar la sección 10: Interpretación y Ejemplos del notebook para observar insights semánticos y fragmentos ilustrativos.
